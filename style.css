@@ -9,3 +9,18 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         ecommerce
 */
+
+html, body,
+button,
+input,
+textarea,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+  font-family: wf_segoe-ui_normal, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+ }
