@@ -10,11 +10,13 @@ function theme_enqueue_styles() {
 	);
 }
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
-add_action( 'init', 'remove_footer_credit', 10 );
+add_action( 'init', 'remove_woohooks', 10 );
 
-function remove_footer_credit () {
+function remove_woohooks () {
 	remove_action( 'storefront_footer', 'storefront_credit', 20 );
 	add_action( 'storefront_footer', 'custom_storefront_credit', 20 );
+	remove_action('storefront_header', 'storefront_primary_navigation', 50);
+	remove_action('storefront_header', 'storefront_header_cart', 60);
 }
 
 function custom_storefront_credit() {
