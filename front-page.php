@@ -9,6 +9,9 @@ get_header(); ?>
 
 	<div id="primary" class="content-area" style="width: 100%">
 		<main id="main" class="site-main" role="main">
+			<?php 
+			storefront_product_search();
+			 ?>
 <h1 id="frontpage-header">Our Exclusive Offers</h1>
 			<?php 
 			echo do_shortcode('[featured_products per_page="3" columns="3"]'); 

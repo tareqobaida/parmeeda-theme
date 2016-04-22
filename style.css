@@ -30,7 +30,10 @@ h6
 {
   font-family: wf_segoe-ui_normal, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
  }
-
+ 
+p.site-description{
+    color: white;
+}
 #frontpage-header{
 margin: 0 0 1em;
 text-align: center; 
@@ -54,4 +57,18 @@ text-align: center;
 
 .home.blog .site-header, .home.page:not(.page-template-template-homepage) .site-header, .home.post-type-archive-product .site-header {
     margin-bottom: 1.236em;
+}
+
+      
+ .main-navigation ul li a {
+ font-weight:300 !important;
+color: white !important;
+}
+ .main-navigation ul li a:hover{
+ 
+color: #d8caa8 !important;
+}
+
+.widget_search form, .widget_product_search form {
+color:red !important;
 }
