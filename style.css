@@ -32,22 +32,26 @@ h6
  }
 
 #frontpage-header{
-    padding: 0 15px;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 40px;
-}
-.site-header{
-	    margin-bottom: 2.236em;
+margin: 0 0 1em;
+text-align: center; 
 }
 
 .widget-area .widget {
     color: #2EB343;
-    # font-size: 0.8em;
 }
 
 .onsale {
     background-color: #FFFFFF;
     border-color: #FF0000;
     color: #FF0000;
+}
+@media (min-width: 768px){
+.site-main ul.products li.product {
+    width: 20.4117647059%;
+    float: left;
+    margin-right: 5.8823529412%;
+}}
+
+.home.blog .site-header, .home.page:not(.page-template-template-homepage) .site-header, .home.post-type-archive-product .site-header {
+    margin-bottom: 1.236em;
 }

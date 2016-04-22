@@ -17,8 +17,6 @@ get_header(); ?>
 			<?php 
 			echo do_shortcode('[recent_products per_page="18" columns="6"]'); 
 			 ?>
-
-
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
