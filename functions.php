@@ -15,8 +15,7 @@ add_action( 'init', 'remove_woohooks', 10 );
 function remove_woohooks () {
 	remove_action( 'storefront_footer', 'storefront_credit', 20 );
 	add_action( 'storefront_footer', 'custom_storefront_credit', 20 );
-	remove_action('storefront_header', 'storefront_primary_navigation', 50);
-	remove_action('storefront_header', 'storefront_header_cart', 60);
+// 	remove_action('storefront_header', 'storefront_secondary_navigation', 30);
 }
 
 function custom_storefront_credit() {
@@ -29,7 +28,4 @@ function custom_storefront_credit() {
 	<?php
 }
 
-function loop_columns() {
-	return 4; // 5 products per row
-}
-add_filter('loop_shop_columns', 'loop_columns', 10);
+

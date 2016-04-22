@@ -10,6 +10,12 @@
  Tags:         ecommerce
 */
 
+
+/*
+ * header color #2aa23c
+ * variation of header color #2EB343
+ */
+
 html, body,
 button,
 input,
@@ -35,3 +41,13 @@ h6
 	    margin-bottom: 2.236em;
 }
 
+.widget-area .widget {
+    color: #2EB343;
+    # font-size: 0.8em;
+}
+
+.onsale {
+    background-color: #FFFFFF;
+    border-color: #FF0000;
+    color: #FF0000;
+}
